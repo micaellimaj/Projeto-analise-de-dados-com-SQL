@@ -71,4 +71,6 @@ Foram aplicadas diversas técnicas para a construção desse projeto como:
 
 ## Bibliotecas Python:
 
-* pandas
+```
+import pandas as pd
+```

@@ -20,3 +20,55 @@ Para auxiliar a análise dos dados eu decidir criar um relatório no Power BI co
 
 Vale resaltar que ambos os datasets possuem as mesmas colunas.
 
+
+*   **School**: escola do aluno (binário: 'GP' - Gabriel Pereira ou 'MS' - Mousinho da Silveira).
+*   **sex**: sexo do aluno (binário: 'F' - feminino ou 'M' - masculino).
+*   **age**: idade do aluno (numérico: de 15 a 22).
+*   **address**: tipo de endereço residencial do aluno (binário: 'U' - urbano ou 'R' - rural).
+*   **famsize**: tamanho da família (binário: 'LE3' - menor ou igual a 3 ou 'GT3' - maior que 3).
+*   **Pstatus**: situação de coabitação dos pais (binário: 'T' - morando juntos ou 'A' - separados).
+*   **Medu**: escolaridade da mãe (numérico: 0 - nenhuma, 1 - ensino fundamental (4º ano), 2 - 5º ao 9º ano, 3 - ensino médio ou 4 - ensino superior).
+*   **Fedu**: escolaridade do pai (numérico: 0 - nenhuma, 1 - ensino fundamental (4º ano), 2 - 5º ao 9º ano, 3 - ensino médio ou 4 - ensino superior).
+*   **Mjob**: trabalho da mãe (nominal: 'professor', 'cuidados de saúde', 'serviços' civis (por exemplo, administrativo ou policial), 'em_casa' ou 'outros').
+*   **Fjob**: trabalho do pai (nominal: 'professor', 'cuidados de saúde', 'serviços' civis (por exemplo, administrativo ou policial), 'em_casa' ou 'outros').
+*   **reason**: razão para escolher esta escola (nominal: perto de ‘casa’, ‘reputação’ da escola, preferência de ‘curso’ ou ‘outro’).
+*   **guardian**: tutor do aluno (nominal: 'mãe', 'pai' ou 'outro').
+*   **traveltime**:  tempo de viagem da casa para a escola (numérico: 1 - <15 min., 2 - 15 a 30 min., 3 - 30 min. a 1 hora, ou 4 - >1 hora).
+*   **studytime**: tempo de estudo semanal (numérico: 1 - <2 horas, 2 - 2 a 5 horas, 3 - 5 a 10 horas ou 4 - >10 horas).
+*   **failures**:  número de falhas de classe anteriores (numérico: n se 1<=n<3, caso contrário 4).
+*   **schoolsup**: apoio educacional extra (binário: sim ou não).
+*   **famsup**: apoio educacional familiar (binário: sim ou não).
+*   **paid**: aulas extras remuneradas dentro da disciplina do curso (Matemática ou Português) (binário: sim ou não).
+*   **activities**: atividades extracurriculares (binário: sim ou não)
+*   **nursery**: frequentou a creche (binário: sim ou não).
+*   **higher**: quer fazer ensino superior (binário: sim ou não).
+*   **internet**: acesso à Internet em casa (binário: sim ou não).
+*   **romantic**: com relacionamento amoroso (binário: sim ou não).
+*   **famrel**: qualidade das relações familiares (numérico: de 1 - péssimo a 5 - excelente).
+*   **freetime**: tempo livre depois da escola (numérico: de 1 - muito baixo a 5 - muito alto).
+*   **goout**: sair com amigos (numérico: de 1 - muito baixo a 5 - muito alto).
+*   **Dalc**:  consumo diário de álcool (numérico: de 1 - muito baixo a 5 - muito alto).
+*   **Walc**: consumo de álcool no final de semana (numérico: de 1 - muito baixo a 5 - muito alto)
+*   **health**: estado de saúde atual (numérico: de 1 – muito ruim a 5 – muito bom)
+*   **absences**: número de faltas escolares (numérico: de 0 a 93).
+*   **G1**: nota do primeiro período (numérico: de 0 a 20).
+*   **G2**: nota do segundo período (numérico: de 0 a 20).
+*   **G3**: nota final (numérico: de 0 a 20, meta de saída).
+
+
+## Desenvolvimento
+
+Foram aplicadas diversas técnicas para a construção desse projeto como:
+
+* Verificação da estrutura e do tipo do dados correto com python para saber como criariamos a tabela no AWS.
+* Utilização de buckets para armazenamento de dados.
+* Uso do Athena para fazer consultas 'SQL'.
+* Trabalho com criação de tabelas.
+* Seleção e filtragem dos dados.
+* Uso de agregações nos dados e métodos estatísticos.
+* Utilização de consultas com múltiplas tabelas e junção dos dados.
+* Uso de subqueries e agregações por particionamento.
+
+## Bibliotecas Python:
+
+* pandas

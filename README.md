@@ -9,6 +9,7 @@ Os datasets utilizados para esse projeto podem ser encontrados nos seguintes lin
 ## Painel:
 
 Para auxiliar a análise dos dados eu decidir criar um relatório no Power BI com os dados dos alunos de matemática que nós traz visuais gráficos, tabelas e segmentadores de dados relevantes, tornando a análise mais completa para a geração de insights. Segue o link abaixo para o relatório:
+* https://bit.ly/micael-lima-analista-de-dados-relatorio-avaliacao-estudantil
 
 ## Tecnologias utilizadas:
 

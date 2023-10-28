@@ -75,3 +75,9 @@ Foram aplicadas diversas técnicas para a construção desse projeto como:
 ```
 import pandas as pd
 ```
+
+## Referências:
+
+* https://thenounproject.com/
+* https://ebaconline.com.br/
+* https://www.flaticon.com/

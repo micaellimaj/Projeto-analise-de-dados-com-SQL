@@ -83,6 +83,6 @@ import pandas as pd
 ## Referências:
 
 ✦ [thenounproject](https://thenounproject.com/)
-✦[flaticon](https://www.flaticon.com/)
+✦ [flaticon](https://www.flaticon.com/)
 ✦ [ebac](https://ebaconline.com.br/)
 

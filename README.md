@@ -82,6 +82,7 @@ import pandas as pd
 
 ## Referências:
 
-* https://thenounproject.com/
-* https://ebaconline.com.br/
-* https://www.flaticon.com/
+✦ [thenounproject](https://thenounproject.com/)
+✦[flaticon](https://www.flaticon.com/)
+✦ [ebac](https://ebaconline.com.br/)
+

@@ -21,7 +21,7 @@ Para auxiliar a análise dos dados, eu decidir criar um relatório no Power BI c
 <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="aws Logo">
 </div>
 
-## Colunas :
+## Atributos :
 
 Vale resaltar que ambos os datasets possuem as mesmas colunas.
 

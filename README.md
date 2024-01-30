@@ -1,5 +1,10 @@
 # Análise de Banco de dados com linguagem SQL: Desempenho estudantil
 
+## Arquitetura do Projeto:
+<img src="projetosql (1).png" alt="arquitetura">
+
+## Sobre o Projeto:
+
 Os dados foram obtidos em uma pesquisa realizada com alunos dos cursos de matemática e língua portuguesa do ensino médio. Ele contém muitas informações sociais, de gênero e de estudo interessantes sobre os alunos. E nesse projeto iremos focar na análise de dados utilizando linguagem SQL para fazer consultas no bucket criado na plataforma da AWS, e com essas consultas gerar insights significativos e filtrar os dados com base nos nossos objetivos. Teremos como foco inicial o dataset dos estudantes de matemática que iremos utilizar para fazer as análises e logo em seguida utilizaremos o dataset dos estudantes de língua portuguesa para trabalhar com múltiplas tabelas. Nesse projeto utilizamos conceitos fundamentais de consulta, como seleção e junção de dados e sua devida estruturação de consulta, além de agrupamento e métodos estatísticos para gerar insights.
 
 Os datasets utilizados para esse projeto podem ser encontrados nos seguintes links:

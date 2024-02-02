@@ -88,6 +88,35 @@ Foram aplicadas diversas técnicas para a construção desse projeto como:
 import pandas as pd
 ```
 
+## Organização:
+
+------------
+
+
+    │
+    ├── LICENSE
+    │
+    ├── README.md                 <- O Readme de nível superior para desenvolvedores que usam esse projeto
+    │
+    ├── projetosql (1).png        <- Arquitetura do projeto de Analise sql  
+    │
+    ├── Consultas                 <- Referente as consultas SQL realizadas.
+    │
+    ├── Particionamento           <- Referente as partições categóricas feitas durante a etapa de particionamento.
+    │
+    ├── Personalização            <- Contém imagens utilizadas para deixar o caderno apresentável para o usuário.
+    │
+    ├── Relatórios                <- Coleção de capturas de tela sobre todo o processo de Análise de dados realizado na Amazon Web Service.
+    │ 
+    ├── dashboard                 <- Contém imagens dos layots utilizados no relatório do power BI.
+    │ 
+    ├── documentos                <- datasets utilizados no projeto.
+    │
+    └── caderno                   <- caderno jupyter notebook utilizado para contrução e apresentação do projeto.
+    
+
+--------
+
 ## Referências:
 
 ✦ [thenounproject](https://thenounproject.com/)
